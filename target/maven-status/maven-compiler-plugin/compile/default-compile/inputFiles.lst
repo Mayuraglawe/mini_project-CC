@@ -1,22 +1,22 @@
-C:\Users\HP\Desktop\TCA_to_AssemblyCode-cc-mini-project-.-main\TCA_to_AssemblyCode-cc-mini-project-.-main\LowLevel_Language\LowLevel_Language\src\main\java\com\CC\LowLevel_Language\api\controller\ConversionController.java
-C:\Users\HP\Desktop\TCA_to_AssemblyCode-cc-mini-project-.-main\TCA_to_AssemblyCode-cc-mini-project-.-main\LowLevel_Language\LowLevel_Language\src\main\java\com\CC\LowLevel_Language\api\dto\CompilationRequest.java
-C:\Users\HP\Desktop\TCA_to_AssemblyCode-cc-mini-project-.-main\TCA_to_AssemblyCode-cc-mini-project-.-main\LowLevel_Language\LowLevel_Language\src\main\java\com\CC\LowLevel_Language\api\dto\CompilationResponse.java
-C:\Users\HP\Desktop\TCA_to_AssemblyCode-cc-mini-project-.-main\TCA_to_AssemblyCode-cc-mini-project-.-main\LowLevel_Language\LowLevel_Language\src\main\java\com\CC\LowLevel_Language\api\dto\HealthResponse.java
-C:\Users\HP\Desktop\TCA_to_AssemblyCode-cc-mini-project-.-main\TCA_to_AssemblyCode-cc-mini-project-.-main\LowLevel_Language\LowLevel_Language\src\main\java\com\CC\LowLevel_Language\api\dto\ValidationResponse.java
-C:\Users\HP\Desktop\TCA_to_AssemblyCode-cc-mini-project-.-main\TCA_to_AssemblyCode-cc-mini-project-.-main\LowLevel_Language\LowLevel_Language\src\main\java\com\CC\LowLevel_Language\api\dto\Version2Response.java
-C:\Users\HP\Desktop\TCA_to_AssemblyCode-cc-mini-project-.-main\TCA_to_AssemblyCode-cc-mini-project-.-main\LowLevel_Language\LowLevel_Language\src\main\java\com\CC\LowLevel_Language\cli\Main.java
-C:\Users\HP\Desktop\TCA_to_AssemblyCode-cc-mini-project-.-main\TCA_to_AssemblyCode-cc-mini-project-.-main\LowLevel_Language\LowLevel_Language\src\main\java\com\CC\LowLevel_Language\compiler\analysis\ConversionStatistics.java
-C:\Users\HP\Desktop\TCA_to_AssemblyCode-cc-mini-project-.-main\TCA_to_AssemblyCode-cc-mini-project-.-main\LowLevel_Language\LowLevel_Language\src\main\java\com\CC\LowLevel_Language\compiler\analysis\RegisterManager.java
-C:\Users\HP\Desktop\TCA_to_AssemblyCode-cc-mini-project-.-main\TCA_to_AssemblyCode-cc-mini-project-.-main\LowLevel_Language\LowLevel_Language\src\main\java\com\CC\LowLevel_Language\compiler\analysis\ResourceAnalysisResult.java
-C:\Users\HP\Desktop\TCA_to_AssemblyCode-cc-mini-project-.-main\TCA_to_AssemblyCode-cc-mini-project-.-main\LowLevel_Language\LowLevel_Language\src\main\java\com\CC\LowLevel_Language\compiler\analysis\ResourceAnalyzer.java
-C:\Users\HP\Desktop\TCA_to_AssemblyCode-cc-mini-project-.-main\TCA_to_AssemblyCode-cc-mini-project-.-main\LowLevel_Language\LowLevel_Language\src\main\java\com\CC\LowLevel_Language\compiler\analysis\SymbolTable.java
-C:\Users\HP\Desktop\TCA_to_AssemblyCode-cc-mini-project-.-main\TCA_to_AssemblyCode-cc-mini-project-.-main\LowLevel_Language\LowLevel_Language\src\main\java\com\CC\LowLevel_Language\compiler\generator\AssemblyGenerator.java
-C:\Users\HP\Desktop\TCA_to_AssemblyCode-cc-mini-project-.-main\TCA_to_AssemblyCode-cc-mini-project-.-main\LowLevel_Language\LowLevel_Language\src\main\java\com\CC\LowLevel_Language\compiler\generator\AssemblyInstruction.java
-C:\Users\HP\Desktop\TCA_to_AssemblyCode-cc-mini-project-.-main\TCA_to_AssemblyCode-cc-mini-project-.-main\LowLevel_Language\LowLevel_Language\src\main\java\com\CC\LowLevel_Language\compiler\generator\CompilationOptions.java
-C:\Users\HP\Desktop\TCA_to_AssemblyCode-cc-mini-project-.-main\TCA_to_AssemblyCode-cc-mini-project-.-main\LowLevel_Language\LowLevel_Language\src\main\java\com\CC\LowLevel_Language\compiler\optimizer\AssemblyOptimizer.java
-C:\Users\HP\Desktop\TCA_to_AssemblyCode-cc-mini-project-.-main\TCA_to_AssemblyCode-cc-mini-project-.-main\LowLevel_Language\LowLevel_Language\src\main\java\com\CC\LowLevel_Language\compiler\optimizer\OptimizationResult.java
-C:\Users\HP\Desktop\TCA_to_AssemblyCode-cc-mini-project-.-main\TCA_to_AssemblyCode-cc-mini-project-.-main\LowLevel_Language\LowLevel_Language\src\main\java\com\CC\LowLevel_Language\compiler\parser\TACInstruction.java
-C:\Users\HP\Desktop\TCA_to_AssemblyCode-cc-mini-project-.-main\TCA_to_AssemblyCode-cc-mini-project-.-main\LowLevel_Language\LowLevel_Language\src\main\java\com\CC\LowLevel_Language\compiler\parser\TACParser.java
-C:\Users\HP\Desktop\TCA_to_AssemblyCode-cc-mini-project-.-main\TCA_to_AssemblyCode-cc-mini-project-.-main\LowLevel_Language\LowLevel_Language\src\main\java\com\CC\LowLevel_Language\compiler\result\ConversionResult.java
-C:\Users\HP\Desktop\TCA_to_AssemblyCode-cc-mini-project-.-main\TCA_to_AssemblyCode-cc-mini-project-.-main\LowLevel_Language\LowLevel_Language\src\main\java\com\CC\LowLevel_Language\compiler\TACtoAssemblyConverter.java
-C:\Users\HP\Desktop\TCA_to_AssemblyCode-cc-mini-project-.-main\TCA_to_AssemblyCode-cc-mini-project-.-main\LowLevel_Language\LowLevel_Language\src\main\java\com\CC\LowLevel_Language\LowLevelLanguageApplication.java
+F:\TAC version 2\mini_project-CC\src\main\java\com\CC\LowLevel_Language\api\controller\ConversionController.java
+F:\TAC version 2\mini_project-CC\src\main\java\com\CC\LowLevel_Language\api\dto\CompilationRequest.java
+F:\TAC version 2\mini_project-CC\src\main\java\com\CC\LowLevel_Language\api\dto\CompilationResponse.java
+F:\TAC version 2\mini_project-CC\src\main\java\com\CC\LowLevel_Language\api\dto\HealthResponse.java
+F:\TAC version 2\mini_project-CC\src\main\java\com\CC\LowLevel_Language\api\dto\ValidationResponse.java
+F:\TAC version 2\mini_project-CC\src\main\java\com\CC\LowLevel_Language\api\dto\Version2Response.java
+F:\TAC version 2\mini_project-CC\src\main\java\com\CC\LowLevel_Language\cli\Main.java
+F:\TAC version 2\mini_project-CC\src\main\java\com\CC\LowLevel_Language\compiler\analysis\ConversionStatistics.java
+F:\TAC version 2\mini_project-CC\src\main\java\com\CC\LowLevel_Language\compiler\analysis\RegisterManager.java
+F:\TAC version 2\mini_project-CC\src\main\java\com\CC\LowLevel_Language\compiler\analysis\ResourceAnalysisResult.java
+F:\TAC version 2\mini_project-CC\src\main\java\com\CC\LowLevel_Language\compiler\analysis\ResourceAnalyzer.java
+F:\TAC version 2\mini_project-CC\src\main\java\com\CC\LowLevel_Language\compiler\analysis\SymbolTable.java
+F:\TAC version 2\mini_project-CC\src\main\java\com\CC\LowLevel_Language\compiler\generator\AssemblyGenerator.java
+F:\TAC version 2\mini_project-CC\src\main\java\com\CC\LowLevel_Language\compiler\generator\AssemblyInstruction.java
+F:\TAC version 2\mini_project-CC\src\main\java\com\CC\LowLevel_Language\compiler\generator\CompilationOptions.java
+F:\TAC version 2\mini_project-CC\src\main\java\com\CC\LowLevel_Language\compiler\optimizer\AssemblyOptimizer.java
+F:\TAC version 2\mini_project-CC\src\main\java\com\CC\LowLevel_Language\compiler\optimizer\OptimizationResult.java
+F:\TAC version 2\mini_project-CC\src\main\java\com\CC\LowLevel_Language\compiler\parser\TACInstruction.java
+F:\TAC version 2\mini_project-CC\src\main\java\com\CC\LowLevel_Language\compiler\parser\TACParser.java
+F:\TAC version 2\mini_project-CC\src\main\java\com\CC\LowLevel_Language\compiler\result\ConversionResult.java
+F:\TAC version 2\mini_project-CC\src\main\java\com\CC\LowLevel_Language\compiler\TACtoAssemblyConverter.java
+F:\TAC version 2\mini_project-CC\src\main\java\com\CC\LowLevel_Language\LowLevelLanguageApplication.java

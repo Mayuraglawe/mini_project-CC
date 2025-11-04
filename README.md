@@ -432,7 +432,30 @@ mvn test
 
 ---
 
-## 📄 License
+## � Deployment
+
+This project is ready to deploy on **Render** with Docker support!
+
+### Quick Deploy Steps:
+1. Push your code to GitHub
+2. Connect repository to Render
+3. Deploy automatically with `render.yaml`
+
+**📖 See detailed deployment guide**: [DEPLOYMENT.md](./DEPLOYMENT.md)
+
+**⚡ Quick start**: [RENDER_QUICKSTART.md](./RENDER_QUICKSTART.md)
+
+### Deployment Files:
+- ✅ `Dockerfile` - Multi-stage Docker build
+- ✅ `render.yaml` - Render service configuration
+- ✅ `.dockerignore` - Docker build exclusions
+- ✅ Configured for free tier deployment
+
+**Live Demo**: Deploy your own instance in 5 minutes! 🎉
+
+---
+
+## �📄 License
 
 This project is part of a Compiler Construction course.
 

@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>TAC to Assembly Converter - V1 & V2</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles-v2.css">
+</head>
+<body>
+<div class="container">
+    <header>
+        <h1>🔧 TAC to Assembly Converter</h1>
+        <p class="subtitle">Complete Compiler Back-End Platform</p>
+    </header>
+
+    <!-- Version Tabs -->
+    <div class="version-tabs">
+        <button class="tab-button active" onclick="switchVersion('v1')">
+            📝 Version 1 - TAC Converter
+        </button>
+        <button class="tab-button" onclick="switchVersion('v2')">
+            🚀 Version 2 - Complete Pipeline
+        </button>
+    </div>
+
+    <main>
+        <!-- ========== VERSION 1 CONTENT ========== -->
+        <div id="version1" class="version-content active">
+            <div class="version-header">
+                <h2>Version 1: TAC to Assembly Converter</h2>
+                <p>Convert Three-Address Code to x86 Assembly Language</p>
+            </div>
+
+            <form id="tacFormV1">
+                <div class="input-section">
+                    <label for="tacCodeV1">Enter TAC Code:</label>
+                    <textarea id="tacCodeV1" name="tacCode" placeholder="Example:&#10;t1 = a + 5&#10;t2 = b * 3&#10;if t1 > t2 goto L1&#10;return t1&#10;L1:&#10;return t2"></textarea>
+                </div>
+
+                <div class="actions">
+                    <button type="button" onclick="validateV1()" class="btn btn-secondary">
+                        <span class="btn-icon">✓</span>
+                        Validate TAC
+                    </button>
+                    <button type="button" onclick="compileV1()" class="btn btn-primary">
+                        <span class="btn-icon">⚙</span>
+                        Compile to Assembly
+                    </button>
+                    <button type="button" onclick="clearV1()" class="btn btn-outline">
+                        <span class="btn-icon">🗑</span>
+                        Clear
+                    </button>
+                </div>
+            </form>
+
+            <div id="resultV1" class="result-section" style="display:none;">
+                <h3>Result</h3>
+                <div class="result-content"></div>
+            </div>
+        </div>
+
+        <!-- ========== VERSION 2 CONTENT ========== -->
+        <div id="version2" class="version-content">
+            <div class="version-header">
+                <h2>Version 2: Complete Back-End Pipeline</h2>
+                <p>Assembly Conversion • Resource Analysis • Code Optimization</p>
+            </div>
+
+            <form id="tacFormV2">
+                <div class="input-section">
+                    <label for="tacCodeV2">Enter TAC Code:</label>
+                    <textarea id="tacCodeV2" name="tacCode" placeholder="Example:&#10;t1 = a + 5&#10;t2 = b * 2&#10;t3 = t1 - 0&#10;t4 = t3 * 1&#10;if t1 > t2 goto L1&#10;return t1&#10;L1:&#10;return t2"></textarea>
+                </div>
+
+                <div class="v2-modules">
+                    <h3>🎯 Select Module:</h3>
+                    <div class="module-buttons">
+                        <button type="button" onclick="runV2Complete()" class="btn btn-success">
+                            <span class="btn-icon">🔄</span>
+                            Complete Pipeline
+                        </button>
+                        <button type="button" onclick="runV2Assembly()" class="btn btn-primary">
+                            <span class="btn-icon">📦</span>
+                            1. Assembly Conversion
+                        </button>
+                        <button type="button" onclick="runV2Resources()" class="btn btn-info">
+                            <span class="btn-icon">📊</span>
+                            2. Resource Analysis
+                        </button>
+                        <button type="button" onclick="runV2Optimize()" class="btn btn-warning">
+                            <span class="btn-icon">⚡</span>
+                            3. Code Optimization
+                        </button>
+                    </div>
+                    <button type="button" onclick="clearV2()" class="btn btn-outline">
+                        <span class="btn-icon">🗑</span>
+                        Clear All
+                    </button>
+                </div>
+            </form>
+
+            <!-- V2 Results -->
+            <div id="v2Results" style="display:none;">
+                <!-- Assembly Output -->
+                <div id="v2Assembly" class="result-section" style="display:none;">
+                    <h3>📦 Assembly Code</h3>
+                    <div class="result-content"></div>
+                </div>
+
+                <!-- Resource Analysis -->
+                <div id="v2Resources" class="result-section" style="display:none;">
+                    <h3>📊 Resource Analysis</h3>
+                    <div class="result-content"></div>
+                </div>
+
+                <!-- Optimization -->
+                <div id="v2Optimization" class="result-section" style="display:none;">
+                    <h3>⚡ Code Optimization</h3>
+                    <div class="result-content"></div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Developer Corner -->
+    <section class="developer-corner">
+        <div class="dev-corner-header">
+            <h2>👨‍💻 Developer Corner</h2>
+            <p>Meet the minds behind this project</p>
+        </div>
+        <div class="developers-grid">
+            <div class="developer-card">
+                <div class="dev-avatar">
+                    <span class="dev-initials">MA</span>
+                </div>
+                <div class="dev-info">
+                    <h3 class="dev-name">Mayur Aglawe</h3>
+                    <p class="dev-role">Java Backend Developer</p>
+                    <div class="dev-skills">
+                        <span class="skill-badge">Java</span>
+                        <span class="skill-badge">Spring Boot</span>
+                        <span class="skill-badge">Backend</span>
+                    </div>
+                </div>
+            </div>
+            <div class="developer-card">
+                <div class="dev-avatar">
+                    <span class="dev-initials">PM</span>
+                </div>
+                <div class="dev-info">
+                    <h3 class="dev-name">Paritosh Magare</h3>
+                    <p class="dev-role">Full Stack Web Developer</p>
+                    <div class="dev-skills">
+                        <span class="skill-badge">Full Stack</span>
+                        <span class="skill-badge">Web Dev</span>
+                        <span class="skill-badge">UI/UX</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 TAC to Assembly Converter Platform. Version 1 & Version 2 Complete Implementation.</p>
+    </footer>
+</div>
+
+<script src="app-v2.js"></script>
+</body>
+</html>
