@@ -1,6 +1,6 @@
 // ========== VERSION 2 Enhanced JavaScript ==========
-
-const API_BASE = 'http://localhost:8080/api/compile';
+// Uses current host (works for both localhost and deployed environment)
+const API_BASE = `${window.location.origin}/api/compile`;
 
 // ========== VERSION SWITCHING ==========
 function switchVersion(version) {

@@ -1,6 +1,7 @@
 // Configuration for your Spring Boot backend
+// Uses current host (works for both localhost and deployed environment)
 const CONFIG = {
-    API_BASE: 'http://localhost:8080/api/compile',
+    API_BASE: `${window.location.origin}/api/compile`,
     ENDPOINTS: {
         VALIDATE: '/validate',
         COMPILE: '/tac',
